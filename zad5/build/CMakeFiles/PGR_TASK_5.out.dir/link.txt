@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/PGR_TASK_5.out.dir/main.cpp.o -o PGR_TASK_5.out  -lncurses

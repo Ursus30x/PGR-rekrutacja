@@ -1,3 +1,3 @@
-/home/ursus/Studia/PGR/zad5/build/CMakeFiles/PGR_TASK_5.dir
+/home/ursus/Studia/PGR/zad5/build/CMakeFiles/PGR_TASK_5.out.dir
 /home/ursus/Studia/PGR/zad5/build/CMakeFiles/edit_cache.dir
 /home/ursus/Studia/PGR/zad5/build/CMakeFiles/rebuild_cache.dir

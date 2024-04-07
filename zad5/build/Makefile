@@ -117,24 +117,24 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named PGR_TASK_5
+# Target rules for targets named PGR_TASK_5.out
 
 # Build rule for target.
-PGR_TASK_5: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PGR_TASK_5
-.PHONY : PGR_TASK_5
+PGR_TASK_5.out: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PGR_TASK_5.out
+.PHONY : PGR_TASK_5.out
 
 # fast build rule for target.
-PGR_TASK_5/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PGR_TASK_5.dir/build.make CMakeFiles/PGR_TASK_5.dir/build
-.PHONY : PGR_TASK_5/fast
+PGR_TASK_5.out/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PGR_TASK_5.out.dir/build.make CMakeFiles/PGR_TASK_5.out.dir/build
+.PHONY : PGR_TASK_5.out/fast
 
 main.o: main.cpp.o
 .PHONY : main.o
 
 # target to build an object file
 main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PGR_TASK_5.dir/build.make CMakeFiles/PGR_TASK_5.dir/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PGR_TASK_5.out.dir/build.make CMakeFiles/PGR_TASK_5.out.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PGR_TASK_5.dir/build.make CMakeFiles/PGR_TASK_5.dir/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PGR_TASK_5.out.dir/build.make CMakeFiles/PGR_TASK_5.out.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PGR_TASK_5.dir/build.make CMakeFiles/PGR_TASK_5.dir/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PGR_TASK_5.out.dir/build.make CMakeFiles/PGR_TASK_5.out.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -161,7 +161,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... PGR_TASK_5"
+	@echo "... PGR_TASK_5.out"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

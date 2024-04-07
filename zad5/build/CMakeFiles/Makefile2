@@ -63,7 +63,7 @@ CMAKE_BINARY_DIR = /home/ursus/Studia/PGR/zad5/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/PGR_TASK_5.dir/all
+all: CMakeFiles/PGR_TASK_5.out.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,34 +71,34 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/PGR_TASK_5.dir/clean
+clean: CMakeFiles/PGR_TASK_5.out.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/PGR_TASK_5.dir
+# Target rules for target CMakeFiles/PGR_TASK_5.out.dir
 
 # All Build rule for target.
-CMakeFiles/PGR_TASK_5.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PGR_TASK_5.dir/build.make CMakeFiles/PGR_TASK_5.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PGR_TASK_5.dir/build.make CMakeFiles/PGR_TASK_5.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ursus/Studia/PGR/zad5/build/CMakeFiles --progress-num=1,2 "Built target PGR_TASK_5"
-.PHONY : CMakeFiles/PGR_TASK_5.dir/all
+CMakeFiles/PGR_TASK_5.out.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PGR_TASK_5.out.dir/build.make CMakeFiles/PGR_TASK_5.out.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PGR_TASK_5.out.dir/build.make CMakeFiles/PGR_TASK_5.out.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/ursus/Studia/PGR/zad5/build/CMakeFiles --progress-num=1,2 "Built target PGR_TASK_5.out"
+.PHONY : CMakeFiles/PGR_TASK_5.out.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/PGR_TASK_5.dir/rule: cmake_check_build_system
+CMakeFiles/PGR_TASK_5.out.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ursus/Studia/PGR/zad5/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PGR_TASK_5.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PGR_TASK_5.out.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/ursus/Studia/PGR/zad5/build/CMakeFiles 0
-.PHONY : CMakeFiles/PGR_TASK_5.dir/rule
+.PHONY : CMakeFiles/PGR_TASK_5.out.dir/rule
 
 # Convenience name for target.
-PGR_TASK_5: CMakeFiles/PGR_TASK_5.dir/rule
-.PHONY : PGR_TASK_5
+PGR_TASK_5.out: CMakeFiles/PGR_TASK_5.out.dir/rule
+.PHONY : PGR_TASK_5.out
 
 # clean rule for target.
-CMakeFiles/PGR_TASK_5.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PGR_TASK_5.dir/build.make CMakeFiles/PGR_TASK_5.dir/clean
-.PHONY : CMakeFiles/PGR_TASK_5.dir/clean
+CMakeFiles/PGR_TASK_5.out.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PGR_TASK_5.out.dir/build.make CMakeFiles/PGR_TASK_5.out.dir/clean
+.PHONY : CMakeFiles/PGR_TASK_5.out.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
