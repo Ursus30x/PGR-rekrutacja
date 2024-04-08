@@ -1,6 +1,7 @@
 #!/bin/bash
 
-if [ -e /proc/sys/fs/binfmt_misc/WSLInterop ]; then                     #jesli jest WSL
+WSLCHECK=$(ls /proc/sys/fs/binfmt_misc | grep WSL) 
+if [ -n "$WSLCHECK" ]; then                     #jesli jest WSL
    echo "Amount of variables: $(env | grep -E "BASH|SHELL" | wc -l)"
    env | grep -E "BASH|SHELL"
 else                                                                    #jesli jest native Linux
