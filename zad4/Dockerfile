@@ -1,2 +1,3 @@
 FROM archlinux
-CMD pacman -Sy openssh
+RUN pacman -Sy openssh
+CMD ["/bin/bash"]
