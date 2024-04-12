@@ -1,0 +1,3 @@
+[submodule "zad2_repos/sub-repo/submodules/sub-sub-repo"]
+	path = zad2_repos/sub-repo/submodules/sub-sub-repo
+	url = https://github.com/Ursus30x/sub-sub-repo.git
