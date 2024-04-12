@@ -65,5 +65,5 @@ int main(){
     std::cout<< StackMin->top() << std::endl;    // pokaże -12
     std::cout<< StackMin->getMin() << std::endl; // pokaże -12
     
-    delete StackMin;
+    delete StackMin; //added pointer deletion so i can see if memory doesnt leak in valgrind
 }
